@@ -1,4 +1,3 @@
-import MainPage from '../components/mainPage'
 import FilterPage from '../components/filterCard'
 import Layout from '../components/Layout'
 

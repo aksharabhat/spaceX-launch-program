@@ -1,19 +1,19 @@
 .container {
   min-height: 100vh;
   padding: 0 0.5rem;
-  display: inline-flex;
+  /* display: inline-flex;
   flex-direction: row;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .main {
   padding: 5rem 0;
   flex: 1;
-  display: inline;
+  /* display: inline;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center; */
 }
 
 .footer {

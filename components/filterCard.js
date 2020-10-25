@@ -2,7 +2,8 @@ import React from 'react';
 import Card from './card'
 import Link from "next/link";
 import styled from 'styled-components';
-import { useRouter } from 'next/router'
+// import LinearProgress from '@material-ui/core/LinearProgress';
+
 const axios = require('axios')
 const a = styled.div
 const LinkItem = styled.a`
@@ -22,7 +23,8 @@ class filterCard extends React.Component {
             allResponse: [],
             launchData: [],
             landandlaunchData: [],
-            cardDetails: []
+            cardDetails: [],
+            loader: false
         }
     }
     handleLaunchYear = (event) => {
@@ -123,6 +125,15 @@ class filterCard extends React.Component {
         let launchSuccessButton = ["True", "False"]
         let landSuccessButton = ["True", "False"]
         console.log("State in render", this.state.cardDetails)
+        // loading = null
+        // if (this.state.loader) {
+        //     loading = (
+        //         <div>
+        //             <LinearProgress variant="query" />
+        //             <LinearProgress color="secondary" variant="query" />
+        //         </div>
+        //     )
+        // }
         let firstTimeLoad = null
         if (this.state.cardDetails.length > 0) {
             firstTimeLoad = <Card className="card-component"
@@ -161,6 +172,7 @@ class filterCard extends React.Component {
         }
         return (
             <div id="filter-card-main-page">
+                {/* {loading} */}
                 <div id="spaceX-launch-programs-filter-options">
                     <div className="filtercard">
                         <div className="filter-card-header">
@@ -247,13 +259,9 @@ class filterCard extends React.Component {
                     <div className="first-card-load">
                         {firstTimeLoad}
                     </div>
-
                 </div>
-
             </div>
-
         )
-
     }
 
 }
