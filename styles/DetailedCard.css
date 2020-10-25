@@ -1,0 +1,285 @@
+/* #noca-detailed-card { */
+  
+    #card-page{
+        /* margin-top: -500px; */
+        margin-left: -20px;
+        display: inline-flex;
+    }
+    #filtered-card-page{
+        margin-top: 10px;
+        margin-left: 250px;
+    }
+    #spaceX-launch-programs-filters{
+        /* background-color: white; */
+        display: inline-flex;
+        
+        /* padding-left: 2px; */
+        /* margin-bottom: 10px; */
+        /* margin-left: 100px; */
+        /* padding:0px */
+    }
+    #spacex-launchSuccess-id{
+        display: inline-flex;
+        margin-left: 30px;
+        /* padding-left: 100px; */
+    }
+    #spacex-landSuccess-id{
+        display: inline-flex;
+        margin-left: 30px;
+    }
+    #spacex-allResponse-id{
+        display: inline-flex;
+        margin-left: 30px;
+    }
+
+    #filter-card-main-page{
+        display: inline-flex;
+    }
+       
+    
+    #spaceX-launch-programs-filter-options{
+        /* background-color: white; */
+        display: inline-flex;
+        margin-left: 10px;
+        padding-left: 2px;
+        height: 500px;
+    }
+    .filer-name{
+        background-color: white;
+        font-size: 25px;
+        margin-top: 8px;
+    }
+    
+    .filter-options{
+        background-color: white;
+       width:100px;
+       /* background-color: ; */
+       padding: 0px;
+       display: inline;
+       
+
+    }
+    
+    .launch-year{
+        background-color: white;
+        text-align: center;
+        margin-top: -20px;
+        margin-bottom: 8px;
+    }
+    .successful-launch{
+        background-color: white;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .successful-land{
+        background-color: white;
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    .button_name1{
+        width:60px;
+        background-color: rgb(207, 238, 144);
+        border-radius: 4px;
+        display: inline-flex;
+        margin: 0.7em;
+    }
+    /* .button_name1:hover{
+        background-color: rgb(53, 180, 108);
+    } */
+    .launchButton_name{
+        width:60px;
+        /* margin-right: -5px; */
+        background-color: rgb(207, 238, 144);
+        border-radius: 4px;
+        margin: 0.7em;
+        /* color: lawngreen; */
+        /* padding-left: 0rem; */
+        display: inline-flex;
+    }
+    /* .launchButton_name:hover{
+        background-color: rgb(53, 180, 108);
+    } */
+    .launch-link{
+        background-color: rgb(207, 238, 144);
+        width: 10px;
+    }
+    .launch-link:hover{
+        
+        background-color: rgb(53, 180, 108);
+    }
+    .landButton_name{
+        width:60px;
+        
+        background-color:rgb(207, 238, 144);
+        border-radius: 4px;
+        margin: 0.7em;
+        /* color: lawngreen; */
+        /* padding-left: 0rem; */
+        display: inline-flex;
+    }
+  /* .landButton_name:hover{
+    background-color: rgb(53, 180, 108);
+  } */
+    .filter-card-header{
+        background-color: white;
+        font-size: 15px;
+        text-align: start;
+        font-weight: bold;
+        margin-top:-20px;
+        margin-left: -15px;
+    }
+    .filtercard {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 600px;
+        width: 200px;
+        border-radius: 5px;
+        margin: auto;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 50px;
+        margin-top: 10px;
+        margin-left: 10px;
+       
+        
+    }
+    .filtercard:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+    .card {
+        background-color: white;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 450px;
+        width: 200px;
+        border-radius: 5px;
+        /* margin: auto; */
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        margin-left: 10px;
+        flex-direction: row;
+        /* display: inline-flex; */
+    }
+
+    .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .image {
+        background-color: rgba(226, 228, 227, 0.575);
+        height: 230px;
+        width: 150px;
+        margin-top: 10px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .card-info {
+        background-color: white;
+        text-align: center;
+    }
+
+    .card-header {
+        background-color: white;
+        margin-bottom: 25px;
+        text-align: center;
+    }
+
+    .filter-name {
+        background-color: white;
+        font-size: 11px;
+        text-align: start;
+        font-weight: bolder;
+        margin-top:-20px;
+        margin-left: -15px;
+        color: rgb(68, 68, 175);
+    }
+    .mission-id-header{
+        background-color: white;
+        font-size: 10px;
+        text-align: left;
+        font-weight: bold;
+   
+    }
+    .list-card-id{
+        background-color: white;
+    }
+    .unordered-list-card-id{
+        background-color: white;
+    }
+    .mission-ids-mainClass{
+        background-color: white;
+    }
+    .mission-id{
+        background-color: white;
+        font-size: 10px;
+        text-align: start;
+        margin-top: -15px;
+        /* margin-left: 20px; */
+        /* font-weight: bold; */
+        
+        
+    }
+    .button-div{
+        padding-left: 0rem;
+        background-color: white;
+        /* margin: 1em; */
+        /* padding:10px 24px; */
+        display: inline;
+        /* width: 140px;
+        height: 84px; */
+    }
+    .launch-year-header{
+        background-color: white;
+        font-size: 10px;
+        text-align: left;
+        font-weight: bold;
+        
+    }
+    .launch-year-value{
+        background-color: white;
+        font-size: 10px;
+        text-align: end;
+        margin-top: auto;
+        /* margin-left: 65px; */
+        /* margin-left: auto; */
+    }
+    .launch-success{
+        background-color: white;
+        font-size: 10px;
+        text-align: left;
+        font-weight: bold;
+    }
+    .land-success{
+        background-color: white;
+        font-size: 10px;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .product-name {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .price-info {
+        margin-top: 20px;
+    }
+
+    .info-text {
+        font-size: 14px;
+        color: #414042;
+    }
+
+    .price-text {
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .card-btn {
+        margin-top: 20px;
+        width: 100%;
+    }
+/* } */

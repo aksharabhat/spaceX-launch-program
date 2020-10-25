@@ -1,0 +1,23 @@
+{
+  "name": "next-example",
+  "version": "0.1.0",
+  "private": true,
+  "main": "app.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "nodemon server/app.js"
+  },
+  "dependencies": {
+    "axios": "^0.20.0",
+    "express": "^4.17.1",
+    "next": "9.5.3",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "save": "^2.4.0",
+    "styled-components": "^5.2.0"
+  },
+  "devDependencies": {
+    "babel-plugin-styled-components": "^1.11.1"
+  }
+}
