@@ -111,6 +111,9 @@
         display: inline-flex;
         margin: 0.7em;
     }
+    .button_name1:hover{
+        background-color: rgb(53, 180, 108);
+    }
    
     .launchButton_name{
         width:60px;
@@ -122,9 +125,9 @@
         /* padding-left: 0rem; */
         display: inline-flex;
     }
-    /* .launchButton_name:hover{
+    .launchButton_name:hover{
         background-color: rgb(53, 180, 108);
-    } */
+    }
     .launch-link{
         background-color: rgb(207, 238, 144);
         width: 10px;
@@ -140,6 +143,9 @@
         border-radius: 4px;
         margin: 0.7em;
         display: inline-flex;
+    }
+    .landButton_name:hover{
+        background-color: rgb(53, 180, 108);
     }
     .filter-card-header{
         background-color: white;
@@ -280,5 +286,27 @@
         display: inline-flex;
         /* flex-direction: block; */
     }
-    
+    @media screen and (max-width: 1024px) {
+        .home-page {
+          width: 115%;
+          margin-left: 35px;
+          margin-right: 58px;
+        }
+      }
+      @media screen and (max-width: 600px) {
+        .home-page {
+            /* display: inline-block; */
+          width: 100%;
+          margin-left: 35px;
+          margin-right: 58px;
+        }
+      }
+      @media screen and (max-width: 1440px) {
+        .home-page {
+           /* align-content: center; */
+           width: 100%;
+           margin-left: 113px;
+          margin-right: 58px;
+        }
+      }
 
