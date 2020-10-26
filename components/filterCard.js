@@ -1,18 +1,8 @@
 import React from 'react';
 import Card from './card'
 import Link from "next/link";
-import styled from 'styled-components';
-// import LinearProgress from '@material-ui/core/LinearProgress';
-
 const axios = require('axios')
-const a = styled.div
-const LinkItem = styled.a`
-background:rgb(207, 238, 144);
-width:180px
 
-`;
-
-// const router = useRouter()
 class filterCard extends React.Component {
     constructor() {
         super();
@@ -125,15 +115,6 @@ class filterCard extends React.Component {
         let launchSuccessButton = ["True", "False"]
         let landSuccessButton = ["True", "False"]
         console.log("State in render", this.state.cardDetails)
-        // loading = null
-        // if (this.state.loader) {
-        //     loading = (
-        //         <div>
-        //             <LinearProgress variant="query" />
-        //             <LinearProgress color="secondary" variant="query" />
-        //         </div>
-        //     )
-        // }
         let firstTimeLoad = null
         if (this.state.cardDetails.length > 0) {
             firstTimeLoad = <Card className="card-component"
@@ -172,7 +153,6 @@ class filterCard extends React.Component {
         }
         return (
             <div id="filter-card-main-page">
-                {/* {loading} */}
                 <div id="spaceX-launch-programs-filter-options">
                     <div className="filtercard">
                         <div className="filter-card-header">
@@ -191,8 +171,8 @@ class filterCard extends React.Component {
                                                 onClick={this.handleLaunchYear}
 
                                             >
-                                                <Link href={`/home?launch_year`} passHref>
-                                                    <LinkItem>{button_name1}</LinkItem>
+                                                <Link href={`/home?launch_year`} >
+                                                    {button_name1}
                                                 </Link>
 
                                             </button>
@@ -210,8 +190,8 @@ class filterCard extends React.Component {
                                             className="launchButton_name"
                                             onClick={this.handleLaunch}
                                         >
-                                            <Link href={`/home?launch_success`} passHref>
-                                                <LinkItem>{launchButton_name}</LinkItem>
+                                            <Link href={`/home?launch_success`} >
+                                                {launchButton_name}
                                             </Link>
 
                                         </button>
@@ -227,8 +207,8 @@ class filterCard extends React.Component {
                                             className="landButton_name"
                                             onClick={this.handleLanding}
                                         >
-                                            <Link href={`/home?land_success`} passHref>
-                                                <LinkItem>{landButton_name}</LinkItem>
+                                            <Link href={`/home?land_success`} >
+                                                {landButton_name}
                                             </Link>
 
                                         </button>

@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "nodemon server/app.js"
+    "start": "next"
   },
   "dependencies": {
     "axios": "^0.20.0",
@@ -15,10 +15,8 @@
     "nprogress": "^0.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
+    "react-router-dom": "^5.2.0",
     "save": "^2.4.0",
     "styled-components": "^5.2.0"
-  },
-  "devDependencies": {
-    "babel-plugin-styled-components": "^1.11.1"
   }
 }

@@ -5,7 +5,8 @@ import Link from 'next/link'
 export default function Home() {
   return (
     <Link href={`/home`}>
-      <a>Click me</a>
+      <a className="home-page">Click here to load SpaceX Launch Program</a>
     </Link>
+
   )
 }

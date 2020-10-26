@@ -260,5 +260,25 @@
         text-align: left;
         font-weight: bold;
     }
+    .home-page{
+        align-content: center;
+        font-family: cursive;
+        font-size: 50px;
+        text-align: center;
+        background-color: lightcyan;
+        margin-top: 50px;
+        margin-left: 420px;
+        /* background-color: white; */
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        height: 450px;
+        width: 300px;
+        border-radius: 5px;
+        border: 1px solid black;
+        padding: 20px;
+        margin-bottom: 500px;
+        display: inline-flex;
+        /* flex-direction: block; */
+    }
     
 
