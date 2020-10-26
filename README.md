@@ -5,7 +5,7 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 1. Clone the git URL in any folder on the system: 
     a. Right click on the desired folder and select "Git Bash Here". 
     b. Paste the below command in the terminal which gets opened: 
-    git clone https://github.com/aksharabhat/spaceX-launch-program.git
+    git clone https://github.com/aksharabhat/spacex-program-launch.git
 2. In the same terminal go to the directory created: "cd spaceX-launch-program"
 3. Checkout to master branch as the code stays in master branch: "git checkout master"
 4. Install all dependencies: "npm install"
