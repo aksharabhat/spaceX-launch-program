@@ -1,5 +1,5 @@
 {
-  "name": "next-example",
+  "name": "spacex-launch-program",
   "version": "0.1.0",
   "private": true,
   "main": "app.js",
@@ -11,13 +11,10 @@
   "dependencies": {
     "axios": "^0.20.0",
     "express": "^4.17.1",
-    "heroku": "^7.46.2",
     "next": "9.5.3",
-    "nprogress": "^0.2.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-router-dom": "^5.2.0",
-    "save": "^2.4.0",
-    "styled-components": "^5.2.0"
+    "save": "^2.4.0"
   }
 }

@@ -23,11 +23,7 @@
         display: inline-flex;
         margin-left: 30px;
     }
-    #spacex-allResponse-id{
-        display: inline-flex;
-        margin-left: 30px;
-    }
-
+   
     #filter-card-main-page{
         display: inline-flex;
         width:100%
@@ -74,7 +70,17 @@
            align-content: center;
         }
       }
-
+.all-Response{
+    margin-left: -50px;
+}
+/* @media screen and (max-width: 1024px) {
+   .all-Response {
+     
+      width:100%;
+      display: flex;
+      margin-left: -18px;
+    }
+  } */
     .filer-name{
         background-color: white;
         font-size: 25px;
@@ -301,12 +307,5 @@
           margin-right: 58px;
         }
       }
-      @media screen and (max-width: 1440px) {
-        .home-page {
-           /* align-content: center; */
-           width: 100%;
-           margin-left: 113px;
-          margin-right: 58px;
-        }
-      }
+     
 
