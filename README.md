@@ -14,4 +14,4 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-## Note: As the Response Takes time to get fetch please wait for few mintues after page load or button click to load and display the data. 
+## Note: As the Response Takes time to get fetched, please wait for few mintues after page load or button click to load and display the data. 
